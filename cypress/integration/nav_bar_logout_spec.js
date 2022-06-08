@@ -18,6 +18,6 @@ describe("Navbar log-out button", () => {
      // click log-out
     
     cy.get("#log-out").click();
-    cy.url().should("include", "/sessions/new");
+    cy.url().should("include", "/");
   });
 });

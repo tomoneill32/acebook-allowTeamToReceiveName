@@ -64,4 +64,8 @@ typings/
 cypress/screenshots
 cypress/videos
 
-node_modules
+# eslint
+.eslintrc.json
+
+# dont know what this is
+acebook@0.0.0
