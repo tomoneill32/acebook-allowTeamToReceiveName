@@ -34,159 +34,45 @@ body {
 .header_button:hover {
   background-color:#1FAAEA;
 }
-
-
-input[type=text] {
-      padding:5px; 
-      border:2px solid #94d47c; 
-      -webkit-border-radius: 5px;
-      border-radius: 5px;
-  }
-input[type=text]:focus {
-      border-color:#94d47c; 
-    }
   
-/* outer sign up box */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 791px;
-height: 537px;
-left: 324px;
-top: 285px;
-
-background: #FFFFFF;
-border: 1px solid #000000;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 74px;
-
-
-/* Sign up */
-
-
-position: absolute;
-width: 377px;
-height: 91px;
-left: 531px;
-top: 335px;
-
-font-family: 'Habibi';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 60px;
-text-align: center;
-
-color: #000000;
-
-
-
-/* Email */
-
-
-position: absolute;
-width: 191px;
-height: 67px;
-left: 624px;
-top: 426px;
-
-font-family: 'Habibi';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 40px;
-text-align: center;
-
-color: #000000;
-
-
-
-/* Password */
-
-
-position: absolute;
-width: 191px;
-height: 67px;
-left: 624px;
-top: 553px;
-
-font-family: 'Habibi';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 40px;
-text-align: center;
-
-color: #000000;
-
-
-
-/* create account button */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 231px;
-height: 75px;
-left: 604px;
-top: 708px;
-
-background: #FFFFFF;
-border: 1px solid #000000;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 74px;
-
-
-/* Create Account */
-
-
-position: absolute;
-width: 146px;
-height: 76px;
-left: 647px;
-top: 715px;
-
-font-family: 'Habibi';
-font-style: normal;
-font-weight: 400;
-font-size: 28px;
-line-height: 35px;
-text-align: center;
-
-color: #000000;
-
-
-
-/* email box */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 508px;
-height: 75px;
-left: 466px;
-top: 475px;
-
-background: #FFFFFF;
-border: 1px solid #000000;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 74px;
-
-
-.password_box {
-  box-sizing: border-box;
-  position: absolute;
-  width: 508px;
-  height: 75px;
-  left: 466px;
-  top: 611px;
-
-  background: #FFFFFF;
-  border: 1px solid #000000;
+.form_box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 350px;
+  padding: 50px;
+  justify-content: center;
+  align-content: center;
+  background: #ffffff;
+  border: 1px solid #392106;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 74px;
+  border-radius: 10px;
+}
+
+.welcome_text {
+  font: 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.input_box {
+  background: #FFFFFF;
+  border: 1px solid #392106;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.main_container {
+  justify-content: center;
+  align-content: center;
+  padding: 100px;
+  padding-top: 150px;
+}
+
+.sign_up_box_padding {
+  padding: 10px;
+  padding-top: 10px;
+}
+
+.sign_up_font_size {
+  font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding-bottom: 50px;
 }
