@@ -63,6 +63,7 @@ describe("Post model", () => {
 
       Post.find((err, posts) => {
         expect(err).toBeNull();
+        console.log(posts[0].comments)
         expect(posts[0].message).toEqual("some message")
         expect(posts[0].comments[0].message).toEqual("some comment")
          
