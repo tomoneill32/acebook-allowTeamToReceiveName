@@ -2,15 +2,16 @@
 <div class="center">
   <form id="new-post-form" action="/posts" method="post">
     <label for="message">Message: </label>
-    <input id="message" type="text" name="message" value="">
+    <input class="new-post-message" datauserid="{{user_id}}" datausername="{{username}}" id="new-post-message" type="text" name="message" value="">
     <input type="submit" value="Submit">
   </form>
 </div>
 <div class="posts"> <!Big box for all posts. Yellow box in miro>
   {{#each posts}}
-  <div class="post"> <!Post box that contains everything for each post. Purple box in miro. Post CSS currently commented out.>
+  <div id="{{this.id}}" class="post"> <!Post box that contains everything for each post. Purple box in miro. Post CSS currently commented out.>
     <div class="post_contents"><!Still contains everything in post, but its padding. Teal box in miro.>
       <div class="author_container"><!Contain poster photo, name and timestamp? Lime green box in miro.>
+        <img src="" ></img>
         <div class="username">{{this.username}}</div>
       </div>
       <div class="message_container"><!Message container. That also contains the number of likes container. Light blue box in miro.>
@@ -55,4 +56,5 @@
   {{/each}}
 </div>
   <script type="text/javascript" src="javascripts/likes_dom.js"></script>
+  <script type="text/javascript" src="javascripts/new_post_dom.js"></script>
 
