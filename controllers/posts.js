@@ -31,7 +31,7 @@ const PostsController = {
         throw err;
       }
       var post = posts[0]
-      post.comments.push({user_id: req.session.user._id, message: req.body.message})
+      post.comments.push({user_id: req.session.user._id, username: req.session.user.username, message: req.body.message})
       post.save((err) => {
         if (err) {
           throw err;
