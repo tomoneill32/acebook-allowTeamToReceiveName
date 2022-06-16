@@ -6,8 +6,8 @@ new_post_form.addEventListener('submit', (eventObj) => {
 
   eventObj.preventDefault()
   let message = document.getElementById("new-post-message").value
-  let user_id = document.getElementById("new-post-message").datauserid
-  let username = document.getElementById("new-post-message").datausername
+  let user_id = document.getElementById("new-post-message").getAttribute('data-userid')
+  let username = document.getElementById("new-post-message").getAttribute('data-username')
   console.log(message)
   console.log(user_id)
   console.log(username)
@@ -16,8 +16,6 @@ new_post_form.addEventListener('submit', (eventObj) => {
     method: "POST",
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({
-      message: message,
-      username: username,
       user_id: user_id
 
     })
