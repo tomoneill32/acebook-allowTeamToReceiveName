@@ -2,7 +2,7 @@
 <div class="center">
   <form id="new-post-form" action="/posts" method="post">
     <label for="message">Message: </label>
-    <input class="new-post-message" datauserid="{{user_id}}" datausername="{{username}}" id="new-post-message" type="text" name="message" value="">
+    <input class="new-post-message" datauserid={{user_id}} datausername={{username}} id="new-post-message" type="text" name="message" value="">
     <input type="submit" value="Submit">
   </form>
 </div>
@@ -29,7 +29,7 @@
       </div>
       <div  class="footer"><!Like and comment button container. Red box in miro.>
           <form class="like-form" id="{{this._id}}" data-user-id="{{user_id}}" action="/posts/add_like" method="post">
-           <input id="user_id" type="hidden" value="{{user_id}}">
+           <input id="user_id" type="hidden" value="{{../user_id}}">
            <input id="post_id" type="hidden"  value="{{this._id}}">
            <input class="add-like-button" id="submit-button" type="submit" value="Like">
           </form>
