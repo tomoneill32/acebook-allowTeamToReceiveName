@@ -21,7 +21,7 @@ new_post_form.addEventListener('submit', (eventObj) => {
     })
   }
 
-  fetch('http://localhost:3000/posts/', options).then((data) => console.log(data))
+  fetch('http://localhost:3000/posts/', options).then((data) => console.log(data)).catch((err) => console.log(err))
 
   posts_container = document.querySelector(".posts")
 
