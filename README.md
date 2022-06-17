@@ -49,9 +49,22 @@ insert link here for trello?
 
 Start time 10am
 Lunch 1pm - 2pm
-End day 
+End day 5:30pm
 
-<img width="1091" alt="Screenshot 2022-06-17 at 10 14 10" src="https://user-images.githubusercontent.com/101583630/174267992-27e4af08-744a-4ea3-979c-7fb8429abb1f.png">
+Breaks decided amongst pairs.
+
+Two pairing slots.
+
+Morning 10.15am - 1pm.
+Afternoon 2pm - 5:30pm.
+
+Daily stand ups and retros.
+
+Stand ups. 10am-10:15am.
+Retro. 5:30pm.
+
+<img width="1087" alt="Screenshot 2022-06-17 at 10 39 48" src="https://user-images.githubusercontent.com/101583630/174272716-2c4f875b-1bb6-43cb-a30e-d083e975857b.png">
+
 
 ## Future Improvements
 
