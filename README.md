@@ -79,6 +79,8 @@ It uses:
 
 ### Install Node.js
 
+change so i can commit from vscode.
+
 1. Install Node Version Manager (NVM)
    ```
    brew install nvm
