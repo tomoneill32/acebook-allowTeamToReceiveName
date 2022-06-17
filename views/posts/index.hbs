@@ -3,10 +3,11 @@
   <a id="change_profile_photo" href='/users/photo' class="" style="text-decoration: none">Change Profile Photo</a> 
   <img class="profile-photo-header"  src={{profilePhotoPath}}>
 <div class="center">
-  <form id="new-post-form" action="/posts" method="post">
+  <form id="new-post-form" action="/posts" enctype="multipart/form-data" method="post">
     <div class="controls">
       <label for="message">Message: </label>
       <input id="message" type="text" name="message" value="">
+      <input id="file-upload" type="file" name="myImage" accept="image/*">
       <input class="button-5" type="submit" value="Submit">
     </div>
   </form>
@@ -28,6 +29,7 @@
         <div>  |  </div>
   
         <div class="post-message">
+          <img class="post-photo" src={{this.postPhotoPath}}>
           {{this.message}}
         </div>
         <!Put bottom border line in here.>

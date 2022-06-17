@@ -12,15 +12,28 @@ const PostsController = {
   },
 
   Create: (req, res) => {
-    const contents = { message: req.body.message, author: req.session.user }
-    const post = new Post(contents);
-    post.save((err) => {
-      if (err) {
-        throw err;
-      }
 
-      res.status(201).redirect("/posts");
-    });
+    
+    if ( req.file === undefined) {
+      const contents = { message: req.body.message, author: req.session.user }
+      const post = new Post(contents);
+      post.save((err) => {
+        if (err) {
+          throw err;
+        }
+        res.status(201).redirect("/posts");
+      });
+    } else {
+      var fileName = req.file.filename;
+      const contents = { message: req.body.message, author: req.session.user, postPhotoPath: `/post-uploads/${fileName}` }
+      const post = new Post(contents);
+      post.save((err) => {
+        if (err) {
+          throw err;
+        }
+        res.status(201).redirect("/posts");
+      })   
+    }
   },
 
   CreateComment:  (req, res) => {
