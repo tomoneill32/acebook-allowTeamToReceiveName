@@ -98,7 +98,7 @@ input[name="myImage"] {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin: 5px -10px 5px 5px;
+  margin: 5px;
   object-fit: cover;
   z-index: 2;
 }
@@ -901,6 +901,10 @@ hr {
 
   .posts {
     padding: 20px 10px;
+  }
+
+  .header_button {
+    padding: 10px;
   }
  
   .post-contents {
