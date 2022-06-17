@@ -66,6 +66,9 @@ cypress/videos
 
 # uploads
 public/uploads
+public/post-uploads
 
 # unknown
 .DS_Store
+
+settings.json

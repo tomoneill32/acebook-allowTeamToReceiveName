@@ -11,6 +11,7 @@
  <form id="new-post-form" action="/posts" method="post">
   <div class="new-message-form">
     <input class="nomargin padding15" id="message" type="text" name="message" placeholder="What's on your mind?" value="">
+    <input id="file-upload" type="file" name="myImage" accept="image/*">
     <input class="button-5 margin15" type="submit" value="Submit">
     </div>
   </form>
@@ -24,6 +25,7 @@
       </div>
       <div class="message_container">  
         <div class="post-message">
+          <img class="post-photo" src={{this.postPhotoPath}}>
           {{this.message}}
         </div>
       </div>
