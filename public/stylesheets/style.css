@@ -257,6 +257,7 @@ input[name="myImage"] {
 
 .center-column {
   flex: 10 1 auto;
+  max-width: 888px;
 }
 
 .right-column {
