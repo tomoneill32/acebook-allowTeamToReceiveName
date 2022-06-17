@@ -31,7 +31,8 @@ It uses:
 
 ## Card wall
 
-insert link here for trello?
+<img width="1813" alt="Screenshot 2022-06-17 at 10 51 03" src="https://user-images.githubusercontent.com/101583630/174274581-9161f027-34fc-4e2c-b8e8-c020c3299be0.png">
+
 
 ## MVP, design and planning
 
@@ -47,21 +48,27 @@ insert link here for trello?
 
 ## Team Approach
 
-Start time 10am
-Lunch 1pm - 2pm
-End day 5:30pm
+### Work hours
 
-Breaks decided amongst pairs.
+* Start time 10am
+* Lunch 1pm - 2pm
+* End day 5:30pm
 
-Two pairing slots.
+### Pairing
 
-Morning 10.15am - 1pm.
-Afternoon 2pm - 5:30pm.
+* Breaks decided amongst pairs.
 
-Daily stand ups and retros.
+* Two pairing slots.
 
-Stand ups. 10am-10:15am.
-Retro. 5:30pm.
+* Morning 10.15am - 1pm.
+* Afternoon 2pm - 5:30pm.
+
+### Daily stand ups and retros.
+
+* Stand ups. 10am-10:15am.
+* Retro. 5:30pm.
+
+* Additional Stand ups before or after lunch for planning and estimation of tickets. When needed.
 
 <img width="1087" alt="Screenshot 2022-06-17 at 10 39 48" src="https://user-images.githubusercontent.com/101583630/174272716-2c4f875b-1bb6-43cb-a30e-d083e975857b.png">
 
