@@ -21,13 +21,10 @@ describe("Timeline", () => {
 
     signUp("email@email.com", "password", "username");
     signIn("email@email.com", "password");
-
     cy.visit("/posts");
-    cy.get("#new-post-form").find('[type="text"]').type("Hello, world!");
+    cy.get("#new-post-form").find('[type="text"]').type("Hello, world no image!");
     cy.get("#new-post-form").submit();
-
-    cy.get(".post").should("contain", "Hello, world!");
-    cy.get(".posts").find('img[class="post-photo"]').should('have.attr', 'src').and('not.contain', '/post-uploads/')
+    cy.get(".post").should("contain", "Hello, world no image!");
   });
 
   it("can submit a post without a message but with an image, when signed in, and view them", () => {
@@ -38,10 +35,9 @@ describe("Timeline", () => {
 
     cy.visit("/posts");
     cy.get("#new-post-form").find('[type="text"]').type("Hello, world!");
-    cy.get("#file-upload").attachFile(p);
+    cy.get("#file-upload").attachFile(p).
     cy.get("#new-post-form").submit();
-
     cy.get(".post").should("contain", "Hello, world!");
-    cy.get(".posts").find('img[class="post-photo"]').should('have.attr', 'src').and('contain', '/post-uploads/')
+    cy.get(".post").find('img[class="post-photo"]').should('have.attr', 'src').and('contain', '/post-uploads/')
   });
 });
