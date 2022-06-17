@@ -1,5 +1,7 @@
 # Bettah
 
+![290e2f323e2e487ca498201d4d13e588](https://user-images.githubusercontent.com/101583630/174263454-e54dc317-9a3a-4f1b-afcd-0989657c2863.png)
+
 ## Contributors
 
 * [Sam Button](https://github.com/SamButton12)
@@ -31,7 +33,17 @@ It uses:
 
 insert link here for trello?
 
-## MVP and designs
+## MVP, design and planning
+
+* A user can make a post on acebook.
+* A user can view a post on acebook.
+* A user can sign up, and then log into acebook.
+
+<img width="888" alt="Screenshot 2022-06-17 at 09 59 40" src="https://user-images.githubusercontent.com/101583630/174265195-45871a3d-aa62-49fe-9066-d31c3e0dc607.png">
+
+<img width="792" alt="Screenshot 2022-06-17 at 10 02 49" src="https://user-images.githubusercontent.com/101583630/174265778-1d982c97-4494-417f-84da-5a2b2e029b2e.png">
+
+<img width="572" alt="Screenshot 2022-06-17 at 10 05 30" src="https://user-images.githubusercontent.com/101583630/174266870-9d34c4a3-3e36-426a-968b-be6ea5e01382.png">
 
 ## Team Approach
 
