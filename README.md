@@ -72,14 +72,26 @@ It uses:
 
 <img width="1087" alt="Screenshot 2022-06-17 at 10 39 48" src="https://user-images.githubusercontent.com/101583630/174272716-2c4f875b-1bb6-43cb-a30e-d083e975857b.png">
 
+## Demo Photos
+
+### Home page / Login Page
+<img width="1265" alt="Screenshot 2022-06-17 at 13 45 52" src="https://user-images.githubusercontent.com/101583630/174303217-f05435f3-6422-43a3-9345-1db0faa9cfc4.png">
+
+### Sign up Page (Modal)
+<img width="1267" alt="Screenshot 2022-06-17 at 13 46 03" src="https://user-images.githubusercontent.com/101583630/174303290-1a7ab547-fe90-48e5-ac21-ceeb1a5ae9f1.png">
+
+### Timeline
+<img width="1264" alt="Screenshot 2022-06-17 at 13 52 32" src="https://user-images.githubusercontent.com/101583630/174303061-ec791370-eb1f-4e17-90ca-3da5d67aa24c.png">
 
 ## Future Improvements
+
+* Users can friend each other.
+* Use cloud server for database
+* Deploy website on Heroku
 
 ## Quickstart
 
 ### Install Node.js
-
-change so i can commit from vscode.
 
 1. Install Node Version Manager (NVM)
    ```
