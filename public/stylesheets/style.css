@@ -148,6 +148,12 @@ body {
   
 }
 
+.sidebar-image {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 4px;
+}
+
 .center {
   text-align: center;
 }
@@ -185,6 +191,9 @@ body {
 .right-column {
   flex: 2 1 auto;
   padding: 0 15px;
+  position: sticky;
+  top: 75px;
+  height: fit-content;
 }
 
 .username {
@@ -799,10 +808,6 @@ hr {
   
   .right-column { 
     display: none;
-  }
-
-  .mobile-ad {
-    display: block;
   }
 
   .comment-form {
