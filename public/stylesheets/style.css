@@ -98,8 +98,9 @@ input[name="myImage"] {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin: 5px;
+  margin: 5px -10px 5px 5px;
   object-fit: cover;
+  z-index: 2;
 }
 
 .header_button_logo {
@@ -112,6 +113,10 @@ input[name="myImage"] {
   display: flex;
   /* justify-content: flex-start; */
   align-items: center;
+}
+
+.navbar-logo {
+  height: 40px;
 }
 
 .header_buttons {
