@@ -8,7 +8,7 @@
 
 </div>
 <div class="center-column">
- <form id="new-post-form" action="/posts" method="post">
+ <form id="new-post-form" action="/posts" method="post" enctype="multipart/form-data">
   <div class="new-message-form">
     <input class="nomargin padding15" id="message" type="text" name="message" placeholder="What's on your mind?" value="">
     <label for="file-upload" class="image-upload-button">Upload Photo</label><input id="file-upload" type="file" name="myImage" accept="image/*">
@@ -25,8 +25,10 @@
       </div>
       <div class="message_container">  
         <div class="post-message">
-          <img class="post-photo" src={{this.postPhotoPath}}>
-          {{this.message}}
+          {{#if this.postPhotoPath}}
+          <div class="post-image"><img class="post-photo" src={{this.postPhotoPath}}></div>
+          {{/if}}
+          <div class="post-text">{{this.message}}</div>
         </div>
       </div>
       <div class="like-bar-container">
