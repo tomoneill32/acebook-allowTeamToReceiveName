@@ -37,6 +37,22 @@ body {
   background-color: #1394cf;
   overflow: auto;
   z-index: 2;
+  display: flex;
+}
+
+input[name="myImage"] {
+  display: none;
+}
+
+.image-upload-button {
+  background-color: #1394cf;
+  width: 50px;
+  border-radius: 3px;
+  color: #fff;
+  line-height: 1.25;
+  padding: 7px 10px 13px 10px;
+  margin: auto 0;
+  max-height: 28px;
 }
 
 
@@ -564,7 +580,8 @@ input#log-out[type="submit"] {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 350px;
+  width: calc(100% - 40px);
+  max-width: 350px;
   padding: 50px 20px;
   justify-content: center;
   background: #ffffff;
