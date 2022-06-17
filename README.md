@@ -1,6 +1,17 @@
-# Acebook
+# Bettah
 
-This is a Node.js template for the Acebook engineering project.
+## Contributors
+
+* [Sam Button](https://github.com/SamButton12)
+* [Gawain Hewitt](https://github.com/gawainhewitt)
+* [Archie Martin](https://github.com/archiemartini)
+* [Russell Morbey](https://github.com/Rmorbey)
+* [Tom O'Neill](https://github.com/tomoneill32)
+* [Simon Tinsley](https://github.com/sjtinsley)
+
+## Description
+
+This is a clone of Facebook built using the Express.js framework for Node.js, with a MongoDB database and Handlebars templates for the front end. It was a group project as part of Makers Academy and we named our website Bettah. Like Meta, but Bettah!
 
 It uses:
 
@@ -8,13 +19,88 @@ It uses:
 - [Nodemon](https://nodemon.io/) to reload the server automatically.
 - [Handlebars](https://handlebarsjs.com/) to render view templates.
 - [Mongoose](https://mongoosejs.com) to model objects in MongoDB.
+- [MongoDB](https://www.mongodb.com/) our database.
 - [ESLint](https://eslint.org) for linting.
 - [Jest](https://jestjs.io/) for testing.
 - [Cypress](https://www.cypress.io/) for end-to-end testing.
+- [Javascript](https://www.javascript.com/) our coding language.
+- [HTML]
+- [CSS]
 
 ## Card wall
 
-REPLACE THIS TEXT WITH A LINK TO YOUR CARD WALL
+insert link here for trello?
+
+## MVP and designs
+
+## Team Approach
+
+
+
+### User Stories
+
+#### Login
+
+```
+As a user, 
+
+```
+```
+As a user, 
+
+```
+```
+As a user, 
+
+```
+```
+As a user,
+
+```
+#### Posts
+
+```
+As a user, 
+
+```
+```
+As a user, 
+
+```
+```
+As a user, 
+
+```
+```
+As a user, 
+
+```
+```
+As a user,
+
+```
+
+#### Interactions
+
+```
+As a user,
+
+```
+```
+As a user, 
+
+```
+### Further User Stories
+
+```
+As a user, 
+
+```
+```
+As a user, 
+
+```
+## Future Improvements
 
 ## Quickstart
 
@@ -31,23 +117,20 @@ REPLACE THIS TEXT WITH A LINK TO YOUR CARD WALL
    nvm install 18
    ```
 
-### Set up your project
+### How to run locally
 
 1. Fork this repository
-2. Rename your fork to `acebook-<team name>`
-3. Clone your fork to your local machine
-4. Install Node.js dependencies
+2. Clone your fork to your local machine
+3. Install Node.js dependencies
    ```
    npm install
    ```
-5. Install an ESLint plugin for your editor. For example: [linter-eslint](https://github.com/AtomLinter/linter-eslint) for Atom.
-6. Install MongoDB
+4. Install MongoDB
    ```
    brew tap mongodb/brew
    brew install mongodb-community@5.0
    ```
-   *Note:* If you see a message that says `If you need to have mongodb-community@5.0 first in your PATH, run:`, follow the instruction. Restart your terminal after this.
-7. Start MongoDB
+5. Start MongoDB
    ```
    brew services start mongodb-community@5.0
    ```
@@ -91,5 +174,3 @@ Some people occasionally experience MongoDB connection errors when running the t
 
 - Check that MongoDB is installed using `mongo --version`
 - Check that it's running using `brew services list`
-
-If you have issues that are not resolved by these tips, please reach out to a coach and, once the issue is resolved, we can add a new tip!
