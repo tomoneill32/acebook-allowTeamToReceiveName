@@ -16,7 +16,7 @@ new_post_form.addEventListener('submit', (eventObj) => {
     method: "POST",
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({
-      user_id: user_id
+      message: message
 
     })
   }
@@ -29,7 +29,7 @@ new_post_form.addEventListener('submit', (eventObj) => {
   new_post_div = document.createElement('div')
   new_post_div.className = 'post'
   new_post_div.innerHTML =   
-    `<div id="dynamic-post" class="post"> 
+    `<div class="post"> 
     <div class="post_contents">
       <div class="author_container">
         <img src="" ></img>
@@ -43,9 +43,7 @@ new_post_form.addEventListener('submit', (eventObj) => {
         <div class="likes-count">${likes_count}</div>
         <div>  |  </div>
   
-        <div class="post-message">
-          ${message}
-        </div>
+        <div class="post-message">${message}</div>
       </div>
       <div  class="footer">
           <form class="like-form" id="dynamic-post" data-user-id="${user_id}" action="/posts/add_like" method="post">

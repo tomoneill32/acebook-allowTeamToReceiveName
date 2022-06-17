@@ -18,9 +18,8 @@
         
         <div class="likes_container"><!Number of likes container. Pink box with little hand in miro.>
          Likes:
-        </div>
+        
         <div class="likes-count">{{this.likes.length}}</div>
-        <div>  |  </div>
   
         <div class="post-message">
           {{this.message}}
@@ -34,27 +33,25 @@
            <input class="add-like-button" id="submit-button" type="submit" value="Like">
           </form>
       </div>
-      {{#each this.comments}}
+      </div>
+      <div class="all_comments">{{#each this.comments}}
       <div class="comment_container"><!Comment container. Black box in miro.>
         <div class="comment">
-          {{this.username}} : {{this.message}}
+          <div class="comment_username">{{this.username}}</div><div class="comment_message">{{this.message}}</div>
         </div>
-        <!Put bottom border line in here.>
       </div>
       {{/each}}
+      </div>
       <div class="footer"><!Like and comment button container. Red box in miro.>
-        <form  id="new-comment-form" class="comment-form" action="posts/create_comment" method="post">
-          <input id="post_id" type="hidden" name="post_id" value="{{this._id}}">
-          <input id="user_id" type="hidden" name="user_email" value="{{../user_id}}">
-          <input id="new-comment-message" datauserid="{{user_id}}" datausername="{{username}}"class="comment-input" type="text" name="message" value="" placeholder="Write a comment...">
+        <form  id="new-comment-form" class="comment-form" action="posts/create_comment" method="post" data-username="{{username}}">
+          <input id="new-comment-message" class="comment-input" data-userid="{{user_id}}" data-username="{{username}}" type="text" name="message" value="" placeholder="Write a comment...">
           <input type="submit" value="Add comment">
         </form>
       </div>
     </div>
-
-  </div>
   {{/each}}
 </div>
   <script type="text/javascript" src="javascripts/likes_dom.js"></script>
   <script type="text/javascript" src="javascripts/new_post_dom.js"></script>
+  <script type="text/javascript" src="javascripts/new_comment_dom.js"></script>
 

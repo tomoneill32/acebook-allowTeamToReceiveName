@@ -14,7 +14,7 @@ describe("Timeline", () => {
     signUp("email@email.com", "password", "username");
     signIn("email@email.com", "password");
     submitPost("Hello, world!");
-
+    cy.reload()
     cy.get('.add-like-button').eq(0).click();
     cy.get('.likes-count').eq(0).should("contain", "1")
   })

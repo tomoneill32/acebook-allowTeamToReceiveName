@@ -37,7 +37,7 @@ const PostsController = {
           throw err;
         }
 
-        res.status(201)
+        res.status(201).redirect('/posts')
       })
     })
   },
@@ -54,8 +54,7 @@ const PostsController = {
             {likes: req.session.user._id}
           },
           (err, result)=>{
-            console.log(err)
-            console.log(result)
+    
           });
       } else {
         Post.findOneAndUpdate(
