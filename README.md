@@ -47,71 +47,12 @@ insert link here for trello?
 
 ## Team Approach
 
+Start time 10am
+Lunch 1pm - 2pm
+End day 
 
+<img width="1091" alt="Screenshot 2022-06-17 at 10 14 10" src="https://user-images.githubusercontent.com/101583630/174267992-27e4af08-744a-4ea3-979c-7fb8429abb1f.png">
 
-### User Stories
-
-#### Login
-
-```
-As a user, 
-
-```
-```
-As a user, 
-
-```
-```
-As a user, 
-
-```
-```
-As a user,
-
-```
-#### Posts
-
-```
-As a user, 
-
-```
-```
-As a user, 
-
-```
-```
-As a user, 
-
-```
-```
-As a user, 
-
-```
-```
-As a user,
-
-```
-
-#### Interactions
-
-```
-As a user,
-
-```
-```
-As a user, 
-
-```
-### Further User Stories
-
-```
-As a user, 
-
-```
-```
-As a user, 
-
-```
 ## Future Improvements
 
 ## Quickstart
