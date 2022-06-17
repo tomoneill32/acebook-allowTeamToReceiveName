@@ -55,6 +55,12 @@ input[name="myImage"] {
   max-height: 28px;
 }
 
+.image-upload-button:hover,
+.image-upload-button:focus {
+  background-color: #1FAAEA;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
 
 .header_buttons {
   display: flex;
